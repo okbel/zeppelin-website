@@ -18,7 +18,7 @@
       $icon.click(function handler(evt) {
         $cont.toggleClass('open');
         $icon.toggleClass('open');
-        $('html').addClass('overlay-visible');
+        $('html').toggleClass('overlay-visible');
       });
     })();
   }
